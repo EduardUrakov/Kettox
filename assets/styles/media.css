@@ -1,0 +1,279 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .container {
+        flex-direction: column;
+        max-width: 768px;
+        align-items: center;
+    }
+
+    .center {
+        padding-left: calc(50% - 163px);
+        padding-right: calc(50% - 163px);
+    }
+
+    .common_title {
+        font-size: 22px;
+        line-height: 127%;
+        text-align: center;
+    }
+
+    .logo,
+    .conditions,
+    .description__img,
+    .main__img,
+    .cheked__mobail,
+    .order,
+    .order__title {
+        display: none;
+    }
+
+    .header__mobail {
+        display: inline;
+        color: #FFFCFC;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 16px 0;
+        text-align: center;
+    }
+
+    .main__content {
+        padding: 28px 0px 26px;
+        overflow: hidden;
+        background-image: url("../img/main_mobail_bg_small_img.png"), url("../img/main_mobail_bg_big_img.png");
+        background-position: 191px -18px, -130px 255px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .main__info {
+        margin: 0 20px;
+        overflow: hidden;
+    }
+
+    .main__title {
+        max-width: 286px;
+        letter-spacing: -1px;
+        margin: 0 auto;
+    }
+
+    .main__title__img {
+        top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .main__text {
+        margin: 12px 0px 25px;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        letter-spacing: -0.8px;
+    }
+
+    .main__description {
+        justify-content: center;
+    }
+
+
+    .main__description-items {
+        margin: -16px 0px 26px;
+        gap: 12px;
+    }
+
+    .main__description-box {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-left: 28px;
+    }
+
+    .mobail__main__img {
+        display: inline;
+        width: 100%;
+    }
+
+    .cheked__mobail {
+        display: inline;
+    }
+
+    .main__description-item {
+        font-size: 14px;
+        line-height: 143%;
+        max-width: 204px;
+    }
+
+    .order__mobail {
+        display: inline;
+        text-align: center;
+    }
+
+    .order__title__mobail {
+        margin: 30px auto;
+        max-width: 296px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .order__price__mobail {
+        gap: 78px;
+        font-family: 'NotoSans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+
+    .order__form__price__mobail-old {
+        color: #A7A7A7;
+    }
+
+    .order__form__price__mobail-old span {
+        text-decoration: line-through;
+    }
+
+    .order__form__price__mobail-new {
+        color: #585858;
+        text-align: center;
+
+    }
+
+    .order__form__price__mobail-new span {
+        color: #DB484B;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 118%;
+    }
+
+    .order__form__inputs__mobail {
+        max-width: 288px;
+        margin: 0 auto;
+        font-family: 'NotoSans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .order__form__inputs-text__mobail {
+        color: #585858;
+        margin: 3px 0px 16px;
+        font-size: 11.667px;
+    }
+
+    .order__form__inputs-text__mobail span {
+        font-size: 15px;
+        margin: 0px 3px;
+    }
+
+    .button__mobail {
+        width: 310px;
+        font-size: 18px;
+        margin-left: -12px;
+        height: 60px;
+    }
+
+    .order__form__bottom__mobail {
+        margin: 9px auto 46px;
+        font-size: 11.667px;
+    }
+
+    .fast__title {
+        margin: 22px 0px 30px;
+    }
+
+    .fast__cards {
+        display: flex;
+    }
+
+    .fast-card {
+        display: none;
+    }
+
+    .fast-card-title {
+        font-size: 36px;
+    }
+
+    .card-item:before {
+        left: 45px;
+    }
+
+    .card-item {
+        padding: 0px 28px 0px 84px;
+        font-size: 14px;
+    }
+
+    .fast-card-img {
+        height: 68px;
+        margin: 90px 0;
+    }
+
+    .fast-card-img-bg {
+        margin-top: -100px;
+        width: 55%;
+    }
+
+    .fast-card-mobail1.active,
+    .fast-card-mobail2.active,
+    .fast-card-mobail3.active {
+        display: block;
+    }
+
+    .fast-card-mobail1,
+    .fast-card-mobail2,
+    .fast-card-mobail3 {
+        display: inline;
+        border-radius: 63px;
+        border: 1px solid #FE78B3;
+        height: 599px;
+        overflow: hidden;
+        max-width: 308px;
+        height: 516px;
+    }
+
+    .fast-card-mobail1,
+    .fast-card-mobail2,
+    .fast-card-mobail3 {
+        display: none;
+    }
+
+    .arrow_right {
+        display: inline;
+        position: absolute;
+        margin-left: 260px;
+        margin-top: 365px;
+        cursor: pointer;
+    }
+
+    .arrow_left {
+        display: inline;
+        position: absolute;
+        margin-top: 365px;
+        margin-left: -255px;
+        cursor: pointer;
+    }
+
+    .compound {
+        background-image: none;
+    }
+
+    .compound__title {
+        margin: 40px 0 17px;
+    }
+
+    .compound__text {
+        text-align: start;
+    }
+
+    .compound__items {
+        margin: 26px 0px 44px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .pop__up,
+    .windows {
+        display: none;
+    }
+}
