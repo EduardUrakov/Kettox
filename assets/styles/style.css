@@ -336,7 +336,8 @@ body {
 }
 
 .arrow_right,
-.arrow_left {
+.arrow_left,
+.compound__items__mobail {
     display: none;
 }
 
@@ -351,6 +352,7 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
 }
+
 
 .compound .container {
     flex-direction: column;

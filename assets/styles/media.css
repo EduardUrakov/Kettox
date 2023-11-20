@@ -232,7 +232,8 @@
 
     .fast-card-mobail1,
     .fast-card-mobail2,
-    .fast-card-mobail3 {
+    .fast-card-mobail3,
+    .compound__items {
         display: none;
     }
 
@@ -264,7 +265,7 @@
         text-align: start;
     }
 
-    .compound__items {
+    .compound__items__mobail {
         margin: 26px 0px 44px;
         display: grid;
         gap: 20px;
